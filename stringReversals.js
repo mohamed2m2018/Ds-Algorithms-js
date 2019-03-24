@@ -7,7 +7,21 @@ const reverse=(str)=>{
         newStr+=str[i];
 
     }
-    console.log(newStr)
+    console.log('My solution is ',newStr)
 }
 
 reverse('Muhammed');
+
+
+//another solution
+
+const reverse2=(str)=>{
+ 
+    const newStr= str.reverse();
+
+    console.log('Built in solution is ',newStr);
+
+
+}
+
+reverse('Muhammad');
