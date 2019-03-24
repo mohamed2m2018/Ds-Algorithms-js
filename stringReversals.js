@@ -35,3 +35,23 @@ const reverse2=(str)=>{
 }
 
 reverse2('Muhammad');
+
+
+//Solution 3 using es6 for of syntax
+
+
+const reverse3=(str)=>{
+
+
+    let reversed='';
+
+    for (element of str){
+        reversed=element+ reversed;
+
+    }
+
+    console.log('Solution using element of is  ',reversed)
+
+}
+
+reverse3('Muhammad');
