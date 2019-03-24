@@ -1,3 +1,9 @@
+//Solution 1
+
+//looping on the string, from end to start, and accumulating letters to a 
+
+//new string
+
 const reverse=(str)=>{
 
     let newStr="";
