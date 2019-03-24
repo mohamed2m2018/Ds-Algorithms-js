@@ -33,7 +33,7 @@ const reverse2 = (str) => {
 reverse2('Muhammad');
 
 //Solution 3 using es6 for of syntax
-
+//best solution
 const reverse3 = (str) => {
   let reversed = '';
 
