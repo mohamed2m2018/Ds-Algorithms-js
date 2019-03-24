@@ -15,13 +15,17 @@ reverse('Muhammed');
 
 //another solution
 
+//using array reversing function
+
+//converting array to string by split, then joining it again to return as string  
+
 const reverse2=(str)=>{
  
-    const newStr= str.reverse();
+    const newStr= str.split('').reverse().join('')
 
     console.log('Built in solution is ',newStr);
 
 
 }
 
-reverse('Muhammad');
+reverse2('Muhammad');
