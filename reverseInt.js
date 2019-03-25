@@ -19,18 +19,18 @@ const reverseInt = (number) => {
 
   negative
     ? console.log(
-        number
+        parseInt(number
           .toString()
           .split('')
           .reverse('')
-          .join('') * -1
+          .join('') * -1)
       )
     : console.log(
-        number
+        parseInt(number
           .toString()
           .split('')
           .reverse('')
-          .join('')
+          .join(''))
       );
 };
 
