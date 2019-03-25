@@ -4,6 +4,8 @@
 
 //new string
 
+//so c++ solution
+
 const reverse = (str) => {
   let newStr = '';
 
